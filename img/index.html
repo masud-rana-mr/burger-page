@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Burger</title>
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+</head>
+<body>
+<!-- header section start from here -->
+<header>
+	<div class="container">
+		<div class="menubar">
+			<div class="logo">
+				<img src="img/logo.PNG">
+			</div>
+			<div class="menu-item">
+				<div class="contact-no">
+					<img src="img/bike.png">
+					<span>Express Delivery +1 234 567 890</span>
+				</div>
+					
+				<div class="menu">
+					<ul>
+						<li><a href="">HOME</a></li>
+						<li><a href="">MENU</a></li>
+						<li><a href="">OUR STORY</a></li>
+						<li><a href="">CONTACT US</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="banner">
+			<p>It is a good time for the great taste of burgers</p>
+			<h1>Burger</h1>
+			<h2>Week</h2>
+		</div>
+	</div>
+</header>
+<!-- header section end from here -->
+<!-- buger post section start from here -->
+<div class="burger-post">
+	<div class="container">
+		<div class="posts">
+			<div class="left">
+				<img src="img/3606214.png" width="100%">
+				<div class="img-text">
+					<h2>Try it now</h2>
+					<h1>most popular burger</h1>
+				</div>
+			</div>
+			<div class="right">
+				<div class="img-2">
+					<img src="img/img2.png" width="100%">
+					<div class="img-text">
+						<h2>Try it now</h2>
+						<h1>most popular burger</h1>
+					</div>
+				</div>
+				<div class="img-3">
+					<img src="img/img3.png" width="100%">
+					<div class="img-text">
+						<h2>Try it now</h2>
+						<h1>most popular burger</h1>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="post-btn">
+			<button>Always test burger</button>
+		</div>
+	</div>
+</div>
+<!-- buger post section end from here -->
+<!-- slider part section code start from here -->
+<div class="slider">
+	<div class="container">
+
+		<div class="owl-carousel owl-theme">
+            <div class="item">
+              <div class="content">
+				<div class="slider-left">
+					<h5>Discover</h5>
+					<h1>Upcoming events</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed doeiusmod tempor incididunt ut labore et dolore<br> magna  aliqua. Quis ipsum suspendisse ultrices gravida.  <br>Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+				</div>
+				<div class="slider-right">
+						<img src="img/burder-4.png" width="100%">
+					</div>
+				</div>
+            </div>
+            <div class="item">
+              <div class="content">
+				<div class="slider-left">
+					<h5>Discover</h5>
+					<h1>Upcoming events</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed doeiusmod tempor incididunt ut labore et dolore<br> magna  aliqua. Quis ipsum suspendisse ultrices gravida.  <br>Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+				</div>
+				<div class="slider-right">
+						<img src="img/burder-4.png" width="100%">
+					</div>
+				</div>
+            </div>
+            <div class="item">
+              <div class="content">
+				<div class="slider-left">
+					<h5>Discover</h5>
+					<h1>Upcoming events</h1>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, <br> sed doeiusmod tempor incididunt ut labore et dolore<br> magna  aliqua. Quis ipsum suspendisse ultrices gravida.  <br>Risus commodo viverra maecenas accumsan lacus vel facilisis. </p>
+				</div>
+				<div class="slider-right">
+						<img src="img/burder-4.png" width="100%">
+					</div>
+				</div>
+            </div>
+
+          </div>
+	</div>
+</div>
+<!-- slider part section code end from here -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/owl.carousel.js"></script>
+
+<script>
+            $(document).ready(function() {
+              var owl = $('.owl-carousel');
+              owl.owlCarousel({
+                margin: 10,
+                nav: true,
+                loop: true,
+                autoplay:true,
+				autoplayTimeout:3000,
+				autoplayHoverPause:true,
+                responsive: {
+                  0: {
+                    items: 1
+                  },
+                  600: {
+                    items: 1
+                  },
+                  1000: {
+                    items: 1
+                  }
+                }
+              })
+            })
+          </script>
+
+</body>
+</html>

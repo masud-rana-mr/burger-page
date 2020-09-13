@@ -1,0 +1,48 @@
+display: flex;
+flex-direction: row, coloum, row-reverse, coloum-reverse
+flex-wrap: wrap, wrap-reverse, nowrap
+justify-content: center, flex-start(left), flex-end(right), space-between, space-around, space-evenly
+align-items: center, baseline, flex-start, flex-end
+flex-flow: row-reverse wrap-reverse;
+
+
+
+
+adobe photoshop cc 2018/2020
+
+1337x.to-> torrent
+
+utorrent download
+
+install -> internet off
+
+
+
+
+project folder
+resource collection img, color, font
+
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+
+
+
+
+step 01: plugin download
+step 02: css/js -> code (link)
+step 03: code (jquery) -> integrate
+step 04: html -> integrate
+
+folder-> docs -> demos -> basic 
+css: dist-> assets -> 
+owl.carousel.min.css
+owl.theme.default.min.css
+js: dist 
+owl.carousel.js
+
+
+
+
+
+
